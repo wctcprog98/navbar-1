@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Typography */
+
+header {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 2em 0;
+}
+
+h1 {
+    font-family: "Lora", serif;
+    font-size: 3.375rem;
+    color: #143774;
+    font-weight: 400;
+    margin: 0;
+}
+
+.subtitle { 
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1792D2;
+    font-size: .75rem;
+    margin: 0;
+
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list-item {
+    margin: 0 1em;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    padding: .25em 0;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    border-bottom: 1px solid#143774;
+    color: #143774;
+}
